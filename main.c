@@ -43,7 +43,7 @@ void imprArrInt(int n, int nums[]){
      int i;
      for(i=0; i<n; i++){
      printf("%d\t", nums[i]);
-     if(i%10==3 && (i>0))
+     if(i%10==0&& (i>0))
         putchar('\n');
      }
 }
